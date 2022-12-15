@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { GoogleLogin } from "react-google-login";
-const clientId =
-  "208036174903-fd45r47f86esi12v4svr9037uf5irj3v.apps.googleusercontent.com";
+const clientId = "";
 
 const GLogin = (props) => {
   const [showSpinner, setShowSpinner] = useState(false);
